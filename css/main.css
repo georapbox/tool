@@ -1,0 +1,103 @@
+
+/*This is common to all or most of the pages*/
+body {font-family: Arial, sans-serif; font-size: 14px; background-color:black; overflow-y:scroll; color: silver}
+h1 {color:#8C7853; text-align:center}
+
+p {color:silver}
+p.standard {line-height:1.5}
+p.centered {text-align:center}
+
+.left {float:left}
+.clear {clear:both}
+
+.navbar {display:block; width:95px; height:45px; text-indent:-9999px;}
+
+.navbar#navbar-home {
+  background: url("../images/home_on.gif") no-repeat;
+}
+.navbar#navbar-home:hover,
+.navbar#navbar-home.active {
+  background: url("../images/home_off.gif") no-repeat;
+}
+
+.navbar#navbar-bio {
+  background: url("../images/bio_on.gif") no-repeat;
+}
+.navbar#navbar-bio:hover,
+.navbar#navbar-bio.active {
+  background: url("../images/bio_off.gif") no-repeat;
+}
+
+.navbar#navbar-discography {
+  background: url("../images/albums_on.gif") no-repeat;
+}
+.navbar#navbar-discography:hover,
+.navbar#navbar-discography.active {
+  background: url("../images/albums_off.gif") no-repeat;
+}
+
+.navbar#navbar-lyrics {
+  background: url("../images/lyrics_on.gif") no-repeat;
+}
+.navbar#navbar-lyrics:hover,
+.navbar#navbar-lyrics.active {
+  background: url("../images/lyrics_off.gif") no-repeat;
+}
+
+.navbar#navbar-photos {
+  background: url("../images/photos_on.gif") no-repeat;
+}
+.navbar#navbar-photos:hover,
+.navbar#navbar-photos.active {
+  background: url("../images/photos_off.gif") no-repeat;
+}
+
+.navbar#navbar-links {
+  background: url("../images/links_on.gif") no-repeat;
+}
+.navbar#navbar-links:hover,
+.navbar#navbar-links.active {
+  background: url("../images/links_off.gif") no-repeat;
+}
+
+.table {position:relative; top:150px; margin-left:auto; margin-right:auto; border-top:5px ridge #8C7853; width:800px}
+.header {position:relative; margin-left:auto; margin-right:auto;  border-top:5px ridge #8C7853; width:800px}
+.footer {position:relative; padding-bottom:32px; text-align:center}
+.logo {position:absolute;top:0px; left:auto}
+.nav {position:absolute; left:200px; top:0px; width:600px}
+
+/*Home page*/
+p.home {text-align:center; font-size:12px}
+
+.album {position:relative; margin-left:auto; margin-right:auto; margin-bottom:48px; width:450px}
+.albumImage {position:absolute; margin-left:auto; margin-right:auto; width:200px}
+.albumList {position:relative; left:250px; top:0px; width:250px}
+
+/*Lyrics page*/
+h3.centered {text-align:center; color:silver}
+p.lyrics {text-align:center; color:silver}
+h2.lyrics {color:#8C7853; text-align:center}
+
+.albums {width:500px; margin:0 auto}
+
+.validationdiv {position:absolute; top:1021px; left:312px;}
+
+/*Photos page*/
+.photos {width:620px; margin-left:auto; margin-right:auto; margin-bottom:32px}
+
+/*External & Internal Links*/
+a.anchor:link {color:#CFB53B}
+a.anchor:visited {color:#8C7853}
+a.anchor:hover {color:silver}
+
+/*Image Links-Used for Internet Explorer 6 and 7*/
+a.anchor:link img {border-color:#CFB53B}
+a.anchor:visited img {border-color:#8C7853}
+a.anchor:hover img {border-color:silver}
+
+
+
+
+
+
+
